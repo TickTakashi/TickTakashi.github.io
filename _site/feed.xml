@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T08:26:42+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TickTakashi</title><subtitle>Hi, I’m Charles.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T15:37:57+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TickTakashi</title><subtitle>Hi, I’m Charles.
 I'm a Researcher in the Game AI Group at Queen Mary University of London,  but I used to be a professional game designer for PC, mobile, and console. I use this blog to provide the odd tutorial, share research and make comments on tech trends. Providing insights through the refined lenses of not really knowing anything.</subtitle><entry><title type="html">Patch Efficacy or: How I Learned to Stop Guessing and Love the Data</title><link href="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html" rel="alternate" type="text/html" title="Patch Efficacy or: How I Learned to Stop Guessing and Love the Data" /><published>2020-02-28T07:29:55+00:00</published><updated>2020-02-28T07:29:55+00:00</updated><id>http://localhost:4000/games/research/2020/02/28/patch-efficacy</id><content type="html" xml:base="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html">&lt;!----- Conversion time: 0.955 seconds.
 
 
@@ -95,7 +95,7 @@ Don’t worry if you don’t know the specifics of how league of legends works -
 &lt;/p&gt;
 &lt;p&gt;
 
-&lt;img src=&quot;/assets/image2.png&quot; width=&quot;&quot; alt=&quot;A bar chart of the winrates of champions before the patch, with targets overlayed&quot; title=&quot;Before&quot;&gt;
+&lt;img src=&quot;/assets/image4.png&quot; width=&quot;&quot; alt=&quot;A bar chart of the winrates of champions before the patch, with targets overlayed&quot; title=&quot;Before&quot;&gt;
 
 &lt;/p&gt;
 &lt;p style=&quot;text-align:center&quot;&gt;
@@ -106,7 +106,7 @@ For a League of Legends patch early in 2020, my colleagues and I (Charles Gbadam
 &lt;/p&gt;
 &lt;p&gt;
 
-&lt;img src=&quot;/assets/image3.png&quot; width=&quot;&quot; alt=&quot;A bar chart of the winrates of champions after the patch, with targets overlayed&quot; title=&quot;After&quot;&gt;
+&lt;img src=&quot;/assets/image2.png&quot; width=&quot;&quot; alt=&quot;A bar chart of the winrates of champions after the patch, with targets overlayed&quot; title=&quot;After&quot;&gt;
 
 &lt;/p&gt;
 &lt;p style=&quot;text-align:center&quot;&gt;
@@ -123,7 +123,7 @@ If you answered “before” then you’re correct, but how correct? This is whe
 &lt;/p&gt;
 &lt;p&gt;
 
-&lt;img src=&quot;/assets/image4.png&quot; width=&quot;&quot; alt=&quot;An aggregation of the errors, visually combines the difference between each bar and the balance target in the before chart and after charts, then compares the size of those combined bars to show that the after chart has 9% more error.&quot;&gt;
+&lt;img src=&quot;/assets/image3.png&quot; width=&quot;&quot; alt=&quot;An aggregation of the errors, visually combines the difference between each bar and the balance target in the before chart and after charts, then compares the size of those combined bars to show that the after chart has 9% more error.&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
