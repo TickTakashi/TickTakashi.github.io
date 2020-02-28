@@ -25,11 +25,20 @@ Inline drawings not supported: look for ">>>>>  gd2md-html alert:  inline drawin
 
 * This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
 ----->
+<head>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
 
 <p>
 Picture the scene: my small balance patch has turned into a big balance patch and now i’m making changes to 20% of the weapons in the game, but that's fine! Game design is more art than science surely. I'm certain that Picasso had absolutely no idea what an "Independent Variable" was and I'm fairly sure he never once used the phrase "Control Group" in his long successful artistic career. We'll just do what we always do and have a look at the analytics to see if the bars, that were supposed to go up, went up.
 </p>
-<p>
+<p style="text-align:center">
 <em>*[furious spreadsheeting sounds]*</em>
 </p>
 <p>
@@ -50,7 +59,7 @@ Despite these problems, it's possible for us to apply some simple transformation
 <p>
 I'm here to introduce you to the world of 
 </p>
-<p>
+<p style="text-align:center">
 <strong>Aggregate Balance Efficacy Metrics</strong>
 </p>
 <p>
@@ -62,11 +71,11 @@ That last word is key, <strong>targets</strong>.
 <p>
 It's impossible to know how far away you are if you don't know where you're going. Metrics like this only really work in a world where you have clear, quantitative, measurable targets because it's impossible for us to really know if we're going in the right direction if we don't know where the destination is. Working out what your targets are is actually the most difficult part of the process and getting it right is 99% of the work, so we'll use a great example from seasoned balance veterans Riot Games to give you an idea of what you're looking for. 
 </p>
-<p>
+<p style="text-align:center">
 <strong>Champion Balance Framework</strong>
 </p>
-<p>
-<em>https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/</em>
+<p style="text-align:center">
+<a href="https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/"><em>https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/</em></a>
 </p>
 <p>
 Riot published this in the middle of 2019 to provide transparency to players regarding patches to League of Legends, the popular esports MOBA title. They outlined the metrics that they care about when it comes to balancing Champions (the playable characters), and the different goals that they have for different player groups. Where do these goals come from? A desire for <em>competitive</em> integrity, and knowledge of what players <em>perceive </em>as balanced based on years of monitoring player data.
@@ -80,7 +89,7 @@ In particular, we’re looking at this:
 <p>
 
 
-<img src="assets/image1.png" width="" alt="Balance targets for Skilled Play in league of legends" title="Skilled Play Targets">
+<img src="/assets/image1.png" width="" alt="Balance targets for Skilled Play in league of legends" title="Skilled Play Targets">
 
 </p>
 <p>
@@ -91,14 +100,10 @@ Don’t worry if you don’t know the specifics of how league of legends works -
 </p>
 <p>
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Post1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Blog-Post1.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/assets/image2.png" width="" alt="A bar chart of the winrates of champions before the patch, with targets overlayed" title="Before">
 
 </p>
-<p>
+<p style="text-align:center">
 <em>Nerfed Champion win rates <strong>Before </strong>the patch</em>
 </p>
 <p>
@@ -106,14 +111,10 @@ For a League of Legends patch early in 2020, my colleagues and I (Charles Gbadam
 </p>
 <p>
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Post2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Blog-Post2.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/assets/image3.png" width="" alt="A bar chart of the winrates of champions after the patch, with targets overlayed" title="After">
 
 </p>
-<p>
+<p style="text-align:center">
 <em>Nerfed Champion win rates <strong>After </strong>the patch</em>
 </p>
 <p>
@@ -127,11 +128,7 @@ If you answered “before” then you’re correct, but how correct? This is whe
 </p>
 <p>
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="https://docs.google.com/a/google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
+<img src="/assets/image4.png" width="" alt="An aggregation of the errors, visually combines the difference between each bar and the balance target in the before chart and after charts, then compares the size of those combined bars to show that the after chart has 9% more error.">
 
 </p>
 <p>
@@ -145,11 +142,7 @@ At this point it’s important to remember that Game Design is an art and these 
 </p>
 <p>
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="https://docs.google.com/a/google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
+<img src="/assets/image5.png" width="" alt="A close look at the bar charts, specifically looking at a single bar for Akali in both charts, and remarking that Akali was within the range of balance before the changes and has since moved out of the target area.">
 
 </p>
 <p>
@@ -158,10 +151,7 @@ Without being a member of the Riot Balance team it’s impossible for us to know
 <p>
 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="https://docs.google.com/a/google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
+<img src="/assets/image6.png" width="" alt="An aggregation of the errors, visually combines the difference between each bar and the balance target in the before chart and after charts, then compares the size of those combined bars to show that the after chart has 53% less error if you exclude Akali from the analysis.">
 
 </p>
 <p>

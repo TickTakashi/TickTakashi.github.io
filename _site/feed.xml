@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T08:07:07+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Patch Efficacy or: How I Learned to Stop Guessing and Love the Data</title><link href="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html" rel="alternate" type="text/html" title="Patch Efficacy or: How I Learned to Stop Guessing and Love the Data" /><published>2020-02-28T07:29:55+00:00</published><updated>2020-02-28T07:29:55+00:00</updated><id>http://localhost:4000/games/research/2020/02/28/patch-efficacy</id><content type="html" xml:base="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html">&lt;!----- Conversion time: 0.955 seconds.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T08:18:13+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Patch Efficacy or: How I Learned to Stop Guessing and Love the Data</title><link href="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html" rel="alternate" type="text/html" title="Patch Efficacy or: How I Learned to Stop Guessing and Love the Data" /><published>2020-02-28T07:29:55+00:00</published><updated>2020-02-28T07:29:55+00:00</updated><id>http://localhost:4000/games/research/2020/02/28/patch-efficacy</id><content type="html" xml:base="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html">&lt;!----- Conversion time: 0.955 seconds.
 
 
 Using this HTML file:
@@ -19,11 +19,20 @@ Inline drawings not supported: look for &quot;&gt;&gt;&gt;&gt;&gt;  gd2md-html a
 
 * This document has images: check for &gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  inline image link in generated source and store images to your server.
 -----&gt;
+&lt;head&gt;
+&lt;style&gt;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+&lt;/style&gt;
+&lt;/head&gt;
 
 &lt;p&gt;
 Picture the scene: my small balance patch has turned into a big balance patch and now i’m making changes to 20% of the weapons in the game, but that's fine! Game design is more art than science surely. I'm certain that Picasso had absolutely no idea what an &quot;Independent Variable&quot; was and I'm fairly sure he never once used the phrase &quot;Control Group&quot; in his long successful artistic career. We'll just do what we always do and have a look at the analytics to see if the bars, that were supposed to go up, went up.
 &lt;/p&gt;
-&lt;p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
 &lt;em&gt;*[furious spreadsheeting sounds]*&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -44,7 +53,7 @@ Despite these problems, it's possible for us to apply some simple transformation
 &lt;p&gt;
 I'm here to introduce you to the world of 
 &lt;/p&gt;
-&lt;p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
 &lt;strong&gt;Aggregate Balance Efficacy Metrics&lt;/strong&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -56,11 +65,11 @@ That last word is key, &lt;strong&gt;targets&lt;/strong&gt;.
 &lt;p&gt;
 It's impossible to know how far away you are if you don't know where you're going. Metrics like this only really work in a world where you have clear, quantitative, measurable targets because it's impossible for us to really know if we're going in the right direction if we don't know where the destination is. Working out what your targets are is actually the most difficult part of the process and getting it right is 99% of the work, so we'll use a great example from seasoned balance veterans Riot Games to give you an idea of what you're looking for. 
 &lt;/p&gt;
-&lt;p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
 &lt;strong&gt;Champion Balance Framework&lt;/strong&gt;
 &lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/&lt;/em&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/&quot;&gt;&lt;em&gt;https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/&lt;/em&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
 Riot published this in the middle of 2019 to provide transparency to players regarding patches to League of Legends, the popular esports MOBA title. They outlined the metrics that they care about when it comes to balancing Champions (the playable characters), and the different goals that they have for different player groups. Where do these goals come from? A desire for &lt;em&gt;competitive&lt;/em&gt; integrity, and knowledge of what players &lt;em&gt;perceive &lt;/em&gt;as balanced based on years of monitoring player data.
@@ -74,7 +83,7 @@ In particular, we’re looking at this:
 &lt;p&gt;
 
 
-&lt;img src=&quot;assets/image1.png&quot; width=&quot;&quot; alt=&quot;Balance targets for Skilled Play in league of legends&quot; title=&quot;Skilled Play Targets&quot;&gt;
+&lt;img src=&quot;/assets/image1.png&quot; width=&quot;&quot; alt=&quot;Balance targets for Skilled Play in league of legends&quot; title=&quot;Skilled Play Targets&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
@@ -85,14 +94,10 @@ Don’t worry if you don’t know the specifics of how league of legends works -
 &lt;/p&gt;
 &lt;p&gt;
 
-
-&lt;p id=&quot;gdcalert2&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/Blog-Post1.png). Store image on your image server and adjust path/filename if necessary. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert3&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
-
-
-&lt;img src=&quot;images/Blog-Post1.png&quot; width=&quot;&quot; alt=&quot;alt_text&quot; title=&quot;image_tooltip&quot;&gt;
+&lt;img src=&quot;/assets/image2.png&quot; width=&quot;&quot; alt=&quot;A bar chart of the winrates of champions before the patch, with targets overlayed&quot; title=&quot;Before&quot;&gt;
 
 &lt;/p&gt;
-&lt;p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
 &lt;em&gt;Nerfed Champion win rates &lt;strong&gt;Before &lt;/strong&gt;the patch&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -100,14 +105,10 @@ For a League of Legends patch early in 2020, my colleagues and I (Charles Gbadam
 &lt;/p&gt;
 &lt;p&gt;
 
-
-&lt;p id=&quot;gdcalert3&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/Blog-Post2.png). Store image on your image server and adjust path/filename if necessary. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert4&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
-
-
-&lt;img src=&quot;images/Blog-Post2.png&quot; width=&quot;&quot; alt=&quot;alt_text&quot; title=&quot;image_tooltip&quot;&gt;
+&lt;img src=&quot;/assets/image3.png&quot; width=&quot;&quot; alt=&quot;A bar chart of the winrates of champions after the patch, with targets overlayed&quot; title=&quot;After&quot;&gt;
 
 &lt;/p&gt;
-&lt;p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
 &lt;em&gt;Nerfed Champion win rates &lt;strong&gt;After &lt;/strong&gt;the patch&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -121,11 +122,7 @@ If you answered “before” then you’re correct, but how correct? This is whe
 &lt;/p&gt;
 &lt;p&gt;
 
-
-&lt;p id=&quot;gdcalert4&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See &lt;a href=&quot;https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference&quot;&gt;Google Drawings by reference&lt;/a&gt; for details. The img URL below is a placeholder. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert5&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
-
-
-&lt;img src=&quot;https://docs.google.com/a/google.com/drawings/d/12345/export/png&quot; width=&quot;80%&quot; alt=&quot;drawing&quot;&gt;
+&lt;img src=&quot;/assets/image4.png&quot; width=&quot;&quot; alt=&quot;An aggregation of the errors, visually combines the difference between each bar and the balance target in the before chart and after charts, then compares the size of those combined bars to show that the after chart has 9% more error.&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
@@ -139,11 +136,7 @@ At this point it’s important to remember that Game Design is an art and these 
 &lt;/p&gt;
 &lt;p&gt;
 
-
-&lt;p id=&quot;gdcalert5&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See &lt;a href=&quot;https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference&quot;&gt;Google Drawings by reference&lt;/a&gt; for details. The img URL below is a placeholder. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert6&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
-
-
-&lt;img src=&quot;https://docs.google.com/a/google.com/drawings/d/12345/export/png&quot; width=&quot;80%&quot; alt=&quot;drawing&quot;&gt;
+&lt;img src=&quot;/assets/image5.png&quot; width=&quot;&quot; alt=&quot;A close look at the bar charts, specifically looking at a single bar for Akali in both charts, and remarking that Akali was within the range of balance before the changes and has since moved out of the target area.&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
@@ -152,10 +145,7 @@ Without being a member of the Riot Balance team it’s impossible for us to know
 &lt;p&gt;
 
 
-&lt;p id=&quot;gdcalert6&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See &lt;a href=&quot;https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference&quot;&gt;Google Drawings by reference&lt;/a&gt; for details. The img URL below is a placeholder. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert7&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
-
-
-&lt;img src=&quot;https://docs.google.com/a/google.com/drawings/d/12345/export/png&quot; width=&quot;80%&quot; alt=&quot;drawing&quot;&gt;
+&lt;img src=&quot;/assets/image6.png&quot; width=&quot;&quot; alt=&quot;An aggregation of the errors, visually combines the difference between each bar and the balance target in the before chart and after charts, then compares the size of those combined bars to show that the after chart has 53% less error if you exclude Akali from the analysis.&quot;&gt;
 
 &lt;/p&gt;
 &lt;p&gt;
