@@ -4,10 +4,10 @@ title:  "Patch Efficacy or: How I Learned to Stop Guessing and Love the Data"
 date:   2020-02-28 07:29:55 +0000
 categories: games research
 ---
-<!----- Conversion time: 1.066 seconds.
+<!----- Conversion time: 0.955 seconds.
 
 
-Using this Markdown file:
+Using this HTML file:
 
 1. Cut and paste this output into your source file.
 2. See the notes and action items below regarding this conversion run.
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β18
-* Thu Feb 27 2020 23:49:53 GMT-0800 (PST)
+* Thu Feb 27 2020 23:54:47 GMT-0800 (PST)
 * Source doc: https://docs.google.com/open?id=1j_S6CUULP171EuDy3E8ZLUUI6KDch9PQT4uUs4MH4lQ
 
 WARNING:
@@ -40,124 +40,165 @@ Inline drawings not supported: look for ">>>>>  gd2md-html alert:  inline drawin
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
+<h2>Patch Efficacy or: How I Learned to Stop Guessing and Love the Data</h2>
 
-## Patch Efficacy or: How I Learned to Stop Guessing and Love the Data
 
+<p>
 Picture the scene: my small balance patch has turned into a big balance patch and now i’m making changes to 20% of the weapons in the game, but that's fine! Game design is more art than science surely. I'm certain that Picasso had absolutely no idea what an "Independent Variable" was and I'm fairly sure he never once used the phrase "Control Group" in his long successful artistic career. We'll just do what we always do and have a look at the analytics to see if the bars, that were supposed to go up, went up.
-
-_*[furious spreadsheeting sounds]*_
-
-That seems about right? Ok well a few of the bars on this bar chart are not doing the right thing but _I think _overall it's an improvement...
-
-_I think._
-
+</p>
+<p>
+<em>*[furious spreadsheeting sounds]*</em>
+</p>
+<p>
+That seems about right? Ok well a few of the bars on this bar chart are not doing the right thing but <em>I think </em>overall it's an improvement...
+</p>
+<p>
+<em>I think.</em>
+</p>
+<p>
 Well, "I think" we can do better than "I think". I would much rather that "I think" be more of an "I know", or better yet, an "it's improved by 9%".
-
+</p>
+<p>
 Every designer that's spent more than a couple of patch cycles working on a GaaS project knows that data is king. but every designer also knows that balance is a hideous hydra that births a new slimy fanged head with every small change. Sometimes several slimy fanged heads. It can be very difficult to know if your balance changes are hitting the mark when their effects are widespread and complex, especially since it's nearly impossible to capture soft qualities like game feel through metrics. 
-
+</p>
+<p>
 Despite these problems, it's possible for us to apply some simple transformations to the sorts of data that we're used to seeing to give them a little more clarity and readability, and if we're careful, we might even be able to give ourselves a little bit more confidence that our change is at least moving in roughly the right direction.
-
+</p>
+<p>
 I'm here to introduce you to the world of 
-
-**Aggregate Balance Efficacy Metrics**
-
-… which is a needlessly fancy way of saying that i'm going to show you some simple mathematical tools, that you might already be using, that can show you how far your game is from your **targets**.
-
-That last word is key, **targets**.
-
+</p>
+<p>
+<strong>Aggregate Balance Efficacy Metrics</strong>
+</p>
+<p>
+… which is a needlessly fancy way of saying that i'm going to show you some simple mathematical tools, that you might already be using, that can show you how far your game is from your <strong>targets</strong>.
+</p>
+<p>
+That last word is key, <strong>targets</strong>.
+</p>
+<p>
 It's impossible to know how far away you are if you don't know where you're going. Metrics like this only really work in a world where you have clear, quantitative, measurable targets because it's impossible for us to really know if we're going in the right direction if we don't know where the destination is. Working out what your targets are is actually the most difficult part of the process and getting it right is 99% of the work, so we'll use a great example from seasoned balance veterans Riot Games to give you an idea of what you're looking for. 
-
-**Champion Balance Framework**
-
-_https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/_
-
-Riot published this in the middle of 2019 to provide transparency to players regarding patches to League of Legends, the popular esports MOBA title. They outlined the metrics that they care about when it comes to balancing Champions (the playable characters), and the different goals that they have for different player groups. Where do these goals come from? A desire for _competitive_ integrity, and knowledge of what players _perceive _as balanced based on years of monitoring player data.
-
+</p>
+<p>
+<strong>Champion Balance Framework</strong>
+</p>
+<p>
+<em>https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/</em>
+</p>
+<p>
+Riot published this in the middle of 2019 to provide transparency to players regarding patches to League of Legends, the popular esports MOBA title. They outlined the metrics that they care about when it comes to balancing Champions (the playable characters), and the different goals that they have for different player groups. Where do these goals come from? A desire for <em>competitive</em> integrity, and knowledge of what players <em>perceive </em>as balanced based on years of monitoring player data.
+</p>
+<p>
 Caveat: Your game might not have access to such a wealth of information, but you can still estimate targets using designer intuition and refine those targets as you recieve player feedback. Game design is an art, and mathematical techniques can’t be used in a theoretical vacuum. That said, back to League of Legends.
-
+</p>
+<p>
 In particular, we’re looking at this:
-
+</p>
+<p>
 
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Post0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Blog-Post0.png "image_tooltip")
+<img src="images/Blog-Post0.png" width="" alt="alt_text" title="image_tooltip">
 
-
-Don’t worry if you don’t know the specifics of how league of legends works - it’s not super important for this example, all this means is that any time the balance team at Riot makes a change to a champion, they can always refer back to these benchmarks to make a concrete assessment of how much closer their game is to balanced. Balance for League of Legends is (at least partially) specified _quantitatively_ - and you can mathematically calculate whether or not a champion is "balanced" according to this framework by looking at the data (if you have it).
-
-**So we did that.**
-
+</p>
+<p>
+Don’t worry if you don’t know the specifics of how league of legends works - it’s not super important for this example, all this means is that any time the balance team at Riot makes a change to a champion, they can always refer back to these benchmarks to make a concrete assessment of how much closer their game is to balanced. Balance for League of Legends is (at least partially) specified <em>quantitatively</em> - and you can mathematically calculate whether or not a champion is "balanced" according to this framework by looking at the data (if you have it).
+</p>
+<p>
+<strong>So we did that.</strong>
+</p>
+<p>
 
 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Post1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Blog-Post1.png "image_tooltip")
+<img src="images/Blog-Post1.png" width="" alt="alt_text" title="image_tooltip">
 
-
-_Nerfed Champion win rates **Before **the patch_
-
+</p>
+<p>
+<em>Nerfed Champion win rates <strong>Before </strong>the patch</em>
+</p>
+<p>
 For a League of Legends patch early in 2020, my colleagues and I (Charles Gbadamosi, Guilherme Matos de Faria and Jozef Kulik of IGGI) collected match outcome data and charted the win rates and ban rates of each champion. Here are two graphs - a before and after - of the adjusted champions. I’ve overlayed the threshold for “balance” as defined in the balance framework, any bar that lands between those two dotted lines represents a champion that is considered “balanced”.
-
+</p>
+<p>
 
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Post2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Blog-Post2.png "image_tooltip")
+<img src="images/Blog-Post2.png" width="" alt="alt_text" title="image_tooltip">
 
-
-_Nerfed Champion win rates **After **the patch_
-
+</p>
+<p>
+<em>Nerfed Champion win rates <strong>After </strong>the patch</em>
+</p>
+<p>
 Great, this is a pretty standard visualization for anyone who’s done this type of metric guided design work before, but here’s the important question:
-
-**Which is better balanced - Before or After?**
-
+</p>
+<p>
+<strong>Which is better balanced - Before or After?</strong>
+</p>
+<p>
 If you answered “before” then you’re correct, but how correct? This is where Aggregate Balance Efficacy Metrics come in. By measuring the distances between each champion win rate and the goldilocks zone of balance we can get a sum for how far off we were, and by comparing the ratio between these two values we can say mathematically whether the game is more or less balanced than it was before. Here’s a visualisation:
-
+</p>
+<p>
 
 
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![drawing](https://docs.google.com/a/google.com/drawings/d/12345/export/png)
+<img src="https://docs.google.com/a/google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
 
-So the error in the new patch is **9% higher **than the previous patch. In other words, we could say that in some sense the patch made the game “9% more unbalanced”.
-
+</p>
+<p>
+So the error in the new patch is <strong>9% higher </strong>than the previous patch. In other words, we could say that in some sense the patch made the game “9% more unbalanced”.
+</p>
+<p>
 Well, not exactly.
-
-At this point it’s important to remember that Game Design is an art and these targets do not tell the full story. By using Designer intuition _alongside_ these techniques we can draw more reliable conclusions about our game. In this case, let’s look at just one changed champion - **Akali**.
-
+</p>
+<p>
+At this point it’s important to remember that Game Design is an art and these targets do not tell the full story. By using Designer intuition <em>alongside</em> these techniques we can draw more reliable conclusions about our game. In this case, let’s look at just one changed champion - <strong>Akali</strong>.
+</p>
+<p>
 
 
 <p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![drawing](https://docs.google.com/a/google.com/drawings/d/12345/export/png)
+<img src="https://docs.google.com/a/google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
 
+</p>
+<p>
 Without being a member of the Riot Balance team it’s impossible for us to know for certain what the motivation behind a specific change is entirely, but based on the data we can make a few good guesses. Akali was already “balanced” according to the framework, but still nerfed in the patch. This suggests that actually the winrate doesn’t tell us the entire story, and that this champion may have been problematic for other reasons. While we don’t know what those reasons are, a designer working on League of Legends can use this domain knowledge to tailor their analysis to better represent their goals. In this specific case what happens if we assume that Akalis win rate isn’t important in our analysis?
-
+</p>
+<p>
 
 
 <p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![drawing](https://docs.google.com/a/google.com/drawings/d/12345/export/png)
+<img src="https://docs.google.com/a/google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
 
+</p>
+<p>
 Much better! 53% better in fact. It looks like our patch is moving in the right direction if we turn a blind eye to Akali.
-
-_“But Charles, surely this is selectively excluding important data to massage our metrics into a better spot? Surely this is not scientifically valid?”_
-
+</p>
+<p>
+<em>“But Charles, surely this is selectively excluding important data to massage our metrics into a better spot? Surely this is not scientifically valid?”</em>
+</p>
+<p>
 You’re right! Well, you would be right if this were a purely scientific approach, and actually if this were an entirely scientific academic analysis we would probably be doing some kind of hypothesis testing and distribution comparison too, along with a whole heap of other statistical analyses, but the reality is that the balance process isn’t entirely scientific: Game Design is an art, and we’ve excluded Akali from this analysis based on our specific design goals.
-
+</p>
+<p>
 Of course it’s also arguable that whatever changes have been made to Akali should keep her winrate in line with the balance framework while addressing the issues beyond her winrate, and that’s an entirely fair stance to take. But this is where we would have to chat with Riot to really know the specifics of the motivations behind the changes in this patch. It’s important to remember that we can’t take these metrics as gospel without first understanding why our targets exist, and putting them in the correct context.
-
+</p>
+<p>
 So what’s the takeaway?
-
+</p>
+<p>
 Slaying the balance hydra is an eternal process, looking at metrics is a great way of giving yourself an edge in the fight, and aggregating those metrics in a way that is meaningful contextually is a powerful weapon in your arsenal. Establishing measurable targets can not only give you and your players peace of mind, but also give you confidence that you’re moving in the right direction using simple analyses that go just one step beyond your existing workflows.
-
-
-<!-- Docs to Markdown version 1.0β18 -->
-
+</p>

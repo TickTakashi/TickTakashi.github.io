@@ -1,13 +1,198 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T07:43:19+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/02/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-02-28T07:29:55+00:00</published><updated>2020-02-28T07:29:55+00:00</updated><id>http://localhost:4000/jekyll/update/2020/02/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/02/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T07:57:17+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Patch Efficacy or: How I Learned to Stop Guessing and Love the Data</title><link href="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html" rel="alternate" type="text/html" title="Patch Efficacy or: How I Learned to Stop Guessing and Love the Data" /><published>2020-02-28T07:29:55+00:00</published><updated>2020-02-28T07:29:55+00:00</updated><id>http://localhost:4000/games/research/2020/02/28/patch-efficacy</id><content type="html" xml:base="http://localhost:4000/games/research/2020/02/28/patch-efficacy.html">&lt;!----- Conversion time: 0.955 seconds.
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+Using this HTML file:
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+1. Cut and paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+Conversion notes:
+
+* Docs to Markdown version 1.0β18
+* Thu Feb 27 2020 23:54:47 GMT-0800 (PST)
+* Source doc: https://docs.google.com/open?id=1j_S6CUULP171EuDy3E8ZLUUI6KDch9PQT4uUs4MH4lQ
+
+WARNING:
+Inline drawings not supported: look for &quot;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  inline drawings...&quot; in output.
+
+* This document has images: check for &gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  inline image link in generated source and store images to your server.
+-----&gt;
+
+
+&lt;p style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 6.&lt;/p&gt;
+&lt;ul style=&quot;color: red; font-weight: bold&quot;&gt;&lt;li&gt;See top comment block for details on ERRORs and WARNINGs. &lt;li&gt;In the converted Markdown or HTML, search for inline alerts that start with &gt;&gt;&gt;&gt;&gt;  gd2md-html alert:  for specific instances that need correction.&lt;/ul&gt;
+
+&lt;p style=&quot;color: red; font-weight: bold&quot;&gt;Links to alert messages:&lt;/p&gt;&lt;a href=&quot;#gdcalert1&quot;&gt;alert1&lt;/a&gt;
+&lt;a href=&quot;#gdcalert2&quot;&gt;alert2&lt;/a&gt;
+&lt;a href=&quot;#gdcalert3&quot;&gt;alert3&lt;/a&gt;
+&lt;a href=&quot;#gdcalert4&quot;&gt;alert4&lt;/a&gt;
+&lt;a href=&quot;#gdcalert5&quot;&gt;alert5&lt;/a&gt;
+&lt;a href=&quot;#gdcalert6&quot;&gt;alert6&lt;/a&gt;
+
+&lt;p style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; PLEASE check and correct alert issues and delete this message and the inline alerts.&lt;hr&gt;&lt;/p&gt;
+
+
+&lt;h2&gt;Patch Efficacy or: How I Learned to Stop Guessing and Love the Data&lt;/h2&gt;
+
+
+&lt;p&gt;
+Picture the scene: my small balance patch has turned into a big balance patch and now i’m making changes to 20% of the weapons in the game, but that's fine! Game design is more art than science surely. I'm certain that Picasso had absolutely no idea what an &quot;Independent Variable&quot; was and I'm fairly sure he never once used the phrase &quot;Control Group&quot; in his long successful artistic career. We'll just do what we always do and have a look at the analytics to see if the bars, that were supposed to go up, went up.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;*[furious spreadsheeting sounds]*&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+That seems about right? Ok well a few of the bars on this bar chart are not doing the right thing but &lt;em&gt;I think &lt;/em&gt;overall it's an improvement...
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;I think.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Well, &quot;I think&quot; we can do better than &quot;I think&quot;. I would much rather that &quot;I think&quot; be more of an &quot;I know&quot;, or better yet, an &quot;it's improved by 9%&quot;.
+&lt;/p&gt;
+&lt;p&gt;
+Every designer that's spent more than a couple of patch cycles working on a GaaS project knows that data is king. but every designer also knows that balance is a hideous hydra that births a new slimy fanged head with every small change. Sometimes several slimy fanged heads. It can be very difficult to know if your balance changes are hitting the mark when their effects are widespread and complex, especially since it's nearly impossible to capture soft qualities like game feel through metrics. 
+&lt;/p&gt;
+&lt;p&gt;
+Despite these problems, it's possible for us to apply some simple transformations to the sorts of data that we're used to seeing to give them a little more clarity and readability, and if we're careful, we might even be able to give ourselves a little bit more confidence that our change is at least moving in roughly the right direction.
+&lt;/p&gt;
+&lt;p&gt;
+I'm here to introduce you to the world of 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Aggregate Balance Efficacy Metrics&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+… which is a needlessly fancy way of saying that i'm going to show you some simple mathematical tools, that you might already be using, that can show you how far your game is from your &lt;strong&gt;targets&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+That last word is key, &lt;strong&gt;targets&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+It's impossible to know how far away you are if you don't know where you're going. Metrics like this only really work in a world where you have clear, quantitative, measurable targets because it's impossible for us to really know if we're going in the right direction if we don't know where the destination is. Working out what your targets are is actually the most difficult part of the process and getting it right is 99% of the work, so we'll use a great example from seasoned balance veterans Riot Games to give you an idea of what you're looking for. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Champion Balance Framework&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;https://nexus.leagueoflegends.com/en-gb/2019/05/dev-champion-balance-framework/&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Riot published this in the middle of 2019 to provide transparency to players regarding patches to League of Legends, the popular esports MOBA title. They outlined the metrics that they care about when it comes to balancing Champions (the playable characters), and the different goals that they have for different player groups. Where do these goals come from? A desire for &lt;em&gt;competitive&lt;/em&gt; integrity, and knowledge of what players &lt;em&gt;perceive &lt;/em&gt;as balanced based on years of monitoring player data.
+&lt;/p&gt;
+&lt;p&gt;
+Caveat: Your game might not have access to such a wealth of information, but you can still estimate targets using designer intuition and refine those targets as you recieve player feedback. Game design is an art, and mathematical techniques can’t be used in a theoretical vacuum. That said, back to League of Legends.
+&lt;/p&gt;
+&lt;p&gt;
+In particular, we’re looking at this:
+&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;p id=&quot;gdcalert1&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/Blog-Post0.png). Store image on your image server and adjust path/filename if necessary. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert2&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img src=&quot;images/Blog-Post0.png&quot; width=&quot;&quot; alt=&quot;alt_text&quot; title=&quot;image_tooltip&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Don’t worry if you don’t know the specifics of how league of legends works - it’s not super important for this example, all this means is that any time the balance team at Riot makes a change to a champion, they can always refer back to these benchmarks to make a concrete assessment of how much closer their game is to balanced. Balance for League of Legends is (at least partially) specified &lt;em&gt;quantitatively&lt;/em&gt; - and you can mathematically calculate whether or not a champion is &quot;balanced&quot; according to this framework by looking at the data (if you have it).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;So we did that.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;p id=&quot;gdcalert2&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/Blog-Post1.png). Store image on your image server and adjust path/filename if necessary. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert3&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img src=&quot;images/Blog-Post1.png&quot; width=&quot;&quot; alt=&quot;alt_text&quot; title=&quot;image_tooltip&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;Nerfed Champion win rates &lt;strong&gt;Before &lt;/strong&gt;the patch&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+For a League of Legends patch early in 2020, my colleagues and I (Charles Gbadamosi, Guilherme Matos de Faria and Jozef Kulik of IGGI) collected match outcome data and charted the win rates and ban rates of each champion. Here are two graphs - a before and after - of the adjusted champions. I’ve overlayed the threshold for “balance” as defined in the balance framework, any bar that lands between those two dotted lines represents a champion that is considered “balanced”.
+&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;p id=&quot;gdcalert3&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline image link here (to images/Blog-Post2.png). Store image on your image server and adjust path/filename if necessary. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert4&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img src=&quot;images/Blog-Post2.png&quot; width=&quot;&quot; alt=&quot;alt_text&quot; title=&quot;image_tooltip&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;Nerfed Champion win rates &lt;strong&gt;After &lt;/strong&gt;the patch&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Great, this is a pretty standard visualization for anyone who’s done this type of metric guided design work before, but here’s the important question:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Which is better balanced - Before or After?&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If you answered “before” then you’re correct, but how correct? This is where Aggregate Balance Efficacy Metrics come in. By measuring the distances between each champion win rate and the goldilocks zone of balance we can get a sum for how far off we were, and by comparing the ratio between these two values we can say mathematically whether the game is more or less balanced than it was before. Here’s a visualisation:
+&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;p id=&quot;gdcalert4&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See &lt;a href=&quot;https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference&quot;&gt;Google Drawings by reference&lt;/a&gt; for details. The img URL below is a placeholder. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert5&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img src=&quot;https://docs.google.com/a/google.com/drawings/d/12345/export/png&quot; width=&quot;80%&quot; alt=&quot;drawing&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+So the error in the new patch is &lt;strong&gt;9% higher &lt;/strong&gt;than the previous patch. In other words, we could say that in some sense the patch made the game “9% more unbalanced”.
+&lt;/p&gt;
+&lt;p&gt;
+Well, not exactly.
+&lt;/p&gt;
+&lt;p&gt;
+At this point it’s important to remember that Game Design is an art and these targets do not tell the full story. By using Designer intuition &lt;em&gt;alongside&lt;/em&gt; these techniques we can draw more reliable conclusions about our game. In this case, let’s look at just one changed champion - &lt;strong&gt;Akali&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;p id=&quot;gdcalert5&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See &lt;a href=&quot;https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference&quot;&gt;Google Drawings by reference&lt;/a&gt; for details. The img URL below is a placeholder. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert6&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img src=&quot;https://docs.google.com/a/google.com/drawings/d/12345/export/png&quot; width=&quot;80%&quot; alt=&quot;drawing&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Without being a member of the Riot Balance team it’s impossible for us to know for certain what the motivation behind a specific change is entirely, but based on the data we can make a few good guesses. Akali was already “balanced” according to the framework, but still nerfed in the patch. This suggests that actually the winrate doesn’t tell us the entire story, and that this champion may have been problematic for other reasons. While we don’t know what those reasons are, a designer working on League of Legends can use this domain knowledge to tailor their analysis to better represent their goals. In this specific case what happens if we assume that Akalis win rate isn’t important in our analysis?
+&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;p id=&quot;gdcalert6&quot; &gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt;  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See &lt;a href=&quot;https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference&quot;&gt;Google Drawings by reference&lt;/a&gt; for details. The img URL below is a placeholder. &lt;/span&gt;&lt;br&gt;(&lt;a href=&quot;#&quot;&gt;Back to top&lt;/a&gt;)(&lt;a href=&quot;#gdcalert7&quot;&gt;Next alert&lt;/a&gt;)&lt;br&gt;&lt;span style=&quot;color: red; font-weight: bold&quot;&gt;&gt;&gt;&gt;&gt;&gt; &lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img src=&quot;https://docs.google.com/a/google.com/drawings/d/12345/export/png&quot; width=&quot;80%&quot; alt=&quot;drawing&quot;&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Much better! 53% better in fact. It looks like our patch is moving in the right direction if we turn a blind eye to Akali.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;“But Charles, surely this is selectively excluding important data to massage our metrics into a better spot? Surely this is not scientifically valid?”&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+You’re right! Well, you would be right if this were a purely scientific approach, and actually if this were an entirely scientific academic analysis we would probably be doing some kind of hypothesis testing and distribution comparison too, along with a whole heap of other statistical analyses, but the reality is that the balance process isn’t entirely scientific: Game Design is an art, and we’ve excluded Akali from this analysis based on our specific design goals.
+&lt;/p&gt;
+&lt;p&gt;
+Of course it’s also arguable that whatever changes have been made to Akali should keep her winrate in line with the balance framework while addressing the issues beyond her winrate, and that’s an entirely fair stance to take. But this is where we would have to chat with Riot to really know the specifics of the motivations behind the changes in this patch. It’s important to remember that we can’t take these metrics as gospel without first understanding why our targets exist, and putting them in the correct context.
+&lt;/p&gt;
+&lt;p&gt;
+So what’s the takeaway?
+&lt;/p&gt;
+&lt;p&gt;
+Slaying the balance hydra is an eternal process, looking at metrics is a great way of giving yourself an edge in the fight, and aggregating those metrics in a way that is meaningful contextually is a powerful weapon in your arsenal. Establishing measurable targets can not only give you and your players peace of mind, but also give you confidence that you’re moving in the right direction using simple analyses that go just one step beyond your existing workflows.
+&lt;/p&gt;</content><author><name></name></author><summary type="html">&lt;!----- Conversion time: 0.955 seconds.</summary></entry></feed>
